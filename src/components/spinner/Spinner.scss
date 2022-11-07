@@ -1,0 +1,27 @@
+.coin-spinner-overlay {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: transparent;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  &.show {
+    z-index: 110;
+    opacity: 1;
+    background: black;
+  }
+}
+
+.coin-spinner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  .spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    --color: #2f06a6;
+  }
+}

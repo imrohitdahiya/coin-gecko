@@ -1,0 +1,35 @@
+.main {
+  padding: 25px;
+  table {
+    background-color: white;
+
+    td {
+      padding: 10px;
+    }
+    tr {
+      cursor: pointer;
+    }
+  }
+  h1 {
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tableWrapper {
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+  }
+}
+.h4 {
+  color: orange;
+}
+label {
+  color: #776363;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
